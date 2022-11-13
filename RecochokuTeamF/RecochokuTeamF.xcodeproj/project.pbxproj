@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C9D9B40291FAB6B00FD1D8A /* Listview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D9B3F291FAB6B00FD1D8A /* Listview.storyboard */; };
-		4C9D9B42291FAED500FD1D8A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D9B41291FAED500FD1D8A /* ListView.swift */; };
-		4CF1ADFF2920A830006C76C3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1ADFD2920A830006C76C3 /* ListViewController.swift */; };
-		4CF1AE002920A830006C76C3 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF1ADFE2920A830006C76C3 /* ListViewController.xib */; };
+		44FB4ACC291FB1B000A792F4 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FB4ACB291FB1B000A792F4 /* Register.storyboard */; };
+		44FB4AD22920816300A792F4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB4AD12920816300A792F4 /* RegisterViewController.swift */; };
 		DAF36159291F9859006ADF06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF36158291F9859006ADF06 /* AppDelegate.swift */; };
 		DAF3615B291F9859006ADF06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3615A291F9859006ADF06 /* SceneDelegate.swift */; };
 		DAF3615D291F9859006ADF06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3615C291F9859006ADF06 /* ViewController.swift */; };
@@ -20,10 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C9D9B3F291FAB6B00FD1D8A /* Listview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Listview.storyboard; path = ../Listview.storyboard; sourceTree = "<group>"; };
-		4C9D9B41291FAED500FD1D8A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		4CF1ADFD2920A830006C76C3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		4CF1ADFE2920A830006C76C3 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+
+		44FB4ACB291FB1B000A792F4 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		44FB4AD12920816300A792F4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DAF36155291F9859006ADF06 /* RecochokuTeamF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecochokuTeamF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF36158291F9859006ADF06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF3615A291F9859006ADF06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +61,8 @@
 		DAF36157291F9859006ADF06 /* RecochokuTeamF */ = {
 			isa = PBXGroup;
 			children = (
-				4C9D9B3F291FAB6B00FD1D8A /* Listview.storyboard */,
+				44FB4ACB291FB1B000A792F4 /* Register.storyboard */,
+				44FB4AD12920816300A792F4 /* RegisterViewController.swift */,
 				DAF36158291F9859006ADF06 /* AppDelegate.swift */,
 				DAF3615A291F9859006ADF06 /* SceneDelegate.swift */,
 				DAF3615C291F9859006ADF06 /* ViewController.swift */,
@@ -142,6 +140,7 @@
 				4CF1AE002920A830006C76C3 /* ListViewController.xib in Resources */,
 				DAF36162291F985B006ADF06 /* Assets.xcassets in Resources */,
 				DAF36160291F9859006ADF06 /* Main.storyboard in Resources */,
+				44FB4ACC291FB1B000A792F4 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +153,7 @@
 			files = (
 				4C9D9B42291FAED500FD1D8A /* ListView.swift in Sources */,
 				DAF3615D291F9859006ADF06 /* ViewController.swift in Sources */,
+				44FB4AD22920816300A792F4 /* RegisterViewController.swift in Sources */,
 				DAF36159291F9859006ADF06 /* AppDelegate.swift in Sources */,
 				4CF1ADFF2920A830006C76C3 /* ListViewController.swift in Sources */,
 				DAF3615B291F9859006ADF06 /* SceneDelegate.swift in Sources */,
@@ -307,9 +307,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecochokuTeamF/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = Listview.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = Register;
+				INFOPLIST_KEY_UIMainStoryboardFile = Register;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -337,9 +336,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecochokuTeamF/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = Listview.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = Register;
+				INFOPLIST_KEY_UIMainStoryboardFile = Register;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
